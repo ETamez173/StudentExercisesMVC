@@ -79,7 +79,7 @@ namespace StudentExercisesMVC.Controllers
         // POST: Students/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Student student)
+        public ActionResult Create(StudentEditViewModel student)
         {
             try
             {
@@ -98,7 +98,7 @@ namespace StudentExercisesMVC.Controllers
                         cmd.Parameters.Add(new SqlParameter("@cohortId", student.CohortId));
 
                         var id = (int)cmd.ExecuteScalar();
-                        student.Id = id;
+                        student.StudentId = id;
 
                         // this sends you back to index after created
                         return RedirectToAction(nameof(Index));
@@ -138,7 +138,7 @@ namespace StudentExercisesMVC.Controllers
         // POST: Students/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, Student student)
+        public ActionResult Edit(int id, StudentEditViewModel student)
         {
             try
             {
