@@ -26,6 +26,9 @@ namespace StudentExercisesMVC.Models
         [Display(Name = "Cohort")]
         public int CohortId { get; set; }
 
+        [Display(Name = "Cohort Name")]
+        public string Name { get; set; }
+
 
     }
 

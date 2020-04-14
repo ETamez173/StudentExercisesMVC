@@ -414,3 +414,8 @@ C:\Users\Owner\Source\Repos\StudentExercisesMVC\StudentExercisesMVC\obj\Debug\ne
 C:\Users\Owner\Source\Repos\StudentExercisesMVC\StudentExercisesMVC\obj\Debug\netcoreapp3.1\Razor\Views\Instructors\Delete.cshtml.g.cs
 C:\Users\Owner\Source\Repos\StudentExercisesMVC\StudentExercisesMVC\obj\Debug\netcoreapp3.1\Razor\Views\Instructors\Details.cshtml.g.cs
 C:\Users\Owner\Source\Repos\StudentExercisesMVC\StudentExercisesMVC\obj\Debug\netcoreapp3.1\Razor\Views\Instructors\Edit.cshtml.g.cs
+C:\Users\Owner\Source\Repos\StudentExercisesMVC\StudentExercisesMVC\obj\Debug\netcoreapp3.1\Razor\Views\Cohorts\Index.cshtml.g.cs
+C:\Users\Owner\Source\Repos\StudentExercisesMVC\StudentExercisesMVC\obj\Debug\netcoreapp3.1\Razor\Views\Cohorts\Details.cshtml.g.cs
+C:\Users\Owner\Source\Repos\StudentExercisesMVC\StudentExercisesMVC\obj\Debug\netcoreapp3.1\Razor\Views\Cohorts\Create.cshtml.g.cs
+C:\Users\Owner\Source\Repos\StudentExercisesMVC\StudentExercisesMVC\obj\Debug\netcoreapp3.1\Razor\Views\Cohorts\Edit.cshtml.g.cs
+C:\Users\Owner\Source\Repos\StudentExercisesMVC\StudentExercisesMVC\obj\Debug\netcoreapp3.1\Razor\Views\Cohorts\Delete.cshtml.g.cs

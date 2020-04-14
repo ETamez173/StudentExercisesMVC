@@ -39,6 +39,12 @@ namespace StudentExercisesMVC.Models.ViewModels
         [Required]
         public int CohortId { get; set; }
 
+        [Display(Name = "Name")]
+        [Required]
+        public string Name { get; set; }
+
+
+
         public List<SelectListItem> CohortOptions { get; set; }
 
     }
